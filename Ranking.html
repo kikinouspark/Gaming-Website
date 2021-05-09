@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Gaming Website</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+      
+      </script>
+</head>
+<body>
+      <div class="wrapper">
+            <header class="common">
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              Gaming Website
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="new.html">Home</a></li>
+                                    <li><a href="Game.html">Game</a></li>
+                                    <li><a href="Ranking.html">Ranking</a></li>
+                                    <li><a class="active" href="LogIn.html">Log In</a></li>
+                                    <li><a class="active2" href="SignUp.html">Sign Up</a></li>
+                              </ul>
+                        </div>
+                  </nav>  
+
+            <div class="grid-container">
+                  <div class="item2">Name</div>
+                  <div class="item3">Score</div>
+                  <input class="text1" type="text" placeholder="" name="" value="">
+                  <input class="text2" type="text" placeholder="" name="" value="">
+                  <input class="text1" type="text" placeholder="" name="" value="">
+                  <input class="text2" type="text" placeholder="" name="" value="">
+                  <input class="text1" type="text" placeholder="" name="" value="">
+                  <input class="text2" type="text" placeholder="" name="" value="">
+                  <input class="text1" type="text" placeholder="" name="" value="">
+                  <input class="text2" type="text" placeholder="" name="" value="">
+                  <input class="text1" type="text" placeholder="" name="" value="">
+                  <input class="text2" type="text" placeholder="" name="" value="">
+                  <input class="text1" type="text" placeholder="" name="" value="">
+                  <input class="text2" type="text" placeholder="" name="" value="">                                                                               
+            
+            </div>
+            </header>
+      </div>
+    
+      <footer>
+                  <div>
+                              <p> Hi i am just the footer of this webpage copyright to my creator Laurent Duval.</p>
+                      </div>
+            </footer>
+</body>
+</html>

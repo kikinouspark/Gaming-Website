@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body class="report">
+    <h1>Report For the Gaming Coursework 1</h1>
+
+        <h2>Screenshots</h2>
+        <h3>Home page with the slideshow</h3>
+        <p>Using the slider to do the slideshow with 4 different images</p>
+        <img src="screen1.JPG" height="500" width="800">
+        <img src="screen2.JPG" height="500" width="800">
+        <img src="screen3.JPG" height="500" width="800">
+        <img src="screen4.JPG" height="500" width="800">
+        <h3>Game page</h3>
+        <img src="screen_game.JPG" height="500" width="800">
+        <h3>Ranking page</h3>
+        <p>Using Grid layout to do the ranking table</p>
+        <img src="screen_ranking.JPG" height="500" width="800">
+        <h3>Log In page</h3>
+        <p>Using a login form with inputs to do the Login and Sign pages</p>
+        <img src="screen_log.JPG" height="500" width="800">
+        <h3>Sign Up page</h3>
+        <img src="screen_sign.JPG" height="500" width="800">
+        
+        
+        
+        <h2>Feature HTML</h2>
+        <h2>The strutured elements used in my websites are: </h2>
+            <h3>-Nav</h3>
+                <p>The HTML nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</p>
+            <h3>-Header</h3>
+                <p>The Header is used to define a document header itself. For instance used in my web page as a header itself.</p>
+            <h3>-h1 and -h2</h3>
+                <p>The h1 to h6 tags are used to define HTML headings. Using them in my tables or in my gaming page where it describes the development of the future game.</p>
+            <h3>-footer</h3>
+                    <p>The footer defines the footer of my webpages where i have inserted basic contact information on myselg.</p>
+            <h3>-slider</h3>
+                    <p>The slider is used to create slideshow displaying iamges in a sequence of order and span time. Four images are span in my slideshow.</p>
+        
+        <h2>The content elements used in my websites are: </h2>
+            <h3>-p</h3>
+                <p>The HTML p element represents a paragraph.It is a Text content</p>
+            <h3>-a</h3>
+                <p>The HTML a element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL. It is Inline text semantics </p>
+            <h3>-img</h3>
+                <p>	The HTML element img embeds an image into the document. It is a replaced element. It serves as image and multimedia</p>
+            <h3>-ul</h3>
+                <p>The HTML ul element represents an unordered list of items, typically rendered as a bulleted list.</p>
+            <h3>-li</h3>
+                <p>The HTML li element is used to represent an item in a list. It must be contained in a parent element: an ordered list (ol), an unordered list (ul), or a menu (menu). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.</p>
+            <h3>-div</h3>
+                <p>	The HTML Content Division element (div) is the generic container for flow content. It has no effect on the content or layout until styled using CSS. It is a text content</p>
+            <h3>-i</h3>
+                <p>The HTML i element represents a range of text that is set off from the normal text for some reason. Some examples include technical terms, foreign language phrases, or fictional character thoughts. It is typically displayed in italic type.</p>
+            <h3>-input</h3>
+                <p>The HTML input element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. It is a form</p>
+            <h3>-title</h3>
+                <p>The HTML Title element (title) defines the document's title that is shown in a browser's title bar or a page's tab. It is a document metadata</p>
+            <h3>-button</h3>
+                <p>The HTML button element represents a clickable button, which can be used in forms or anywhere in a document that needs simple, standard button functionality.</p>
+
+
+            <h2>Feature CSS</h2>
+                    <h2>Those examples are the typical ones used in my website design</h2>
+                <h2>CSS formating used:</h2>
+                    <h3>font-family</h3>
+                        <p>The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.</p>
+                    <h3>font-weight</h3>
+                        <p>The font-weight CSS property specifies the weight (or boldness) of the font. The font weights available to you will depend on the font-family you are using. Font used in the website is "Helvetica Neue".</p>
+                    <h3>width</h3>
+                        <p>The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.</p>
+                    <h3>left</h3>
+                        <p>The left CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.</p>
+                    <h3>top</h3>
+                        <p>The top CSS property participates in specifying the vertical position of a positioned element like the log in box or the grid layout. It has no effect on non-positioned elements.</p>
+                    <h3>margin</h3>
+                        <p>The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.</p>
+                    <h3>color</h3>
+                        <p>The color CSS property sets the foreground color value of an element's text content and text decorations.</p>
+                    <h3>padding</h3>
+                        <p>The padding CSS property sets the padding area on all four sides of an element for example the footer or login box. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left.</p>
+                    <h3>text-align</h3>
+                        <p>The text-align CSS property specifies the horizontal alignment of an inline or table-cell box.This means it works like vertical-align but in the horizontal direction.</p>
+                    <h3>height</h3>
+                        <p>The height CSS property specifies the height of an element. By default, the property defines the height of the content area.</p>
+                
+                <h2>CSS class and ID</h2>
+                    <h3>Class</h3>
+                        <p>The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet. </p>
+                    <h3>ID</h3>
+                        <p>The ID attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet.</p>
+
+                    <h3>In the CSS, a class selector is a name preceded by a full stop (".") and an ID selector is a name preceded by a hash character ("#").</h3>
+        
+                    <h3>The Layout used is Grid for the Ranking page(Ranking.php)</h3>
+        
+            <h2>Feature PHP</h2>
+                <h3>The File containing the function is called component.php </h3>
+                <h3>The Fucntion names are as follows: nav, foot and head_func</h3>
+                <h3>A known error has been found when trying to echo a script. There was a missing ";" in the code. At the end the script was not implemented</h3>
+                <h3>The page header, the navigation page and the footer are the ones reusable in every pages. Their function are echoed through the php component file.</h3>
+</body>
+</html>
